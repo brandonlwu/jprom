@@ -145,6 +145,40 @@ body {
 	}
 }
 
+@media screen and (max-width:400px) {
+	#theme1 {
+		font-size: 90px;
+		top: 40px;
+		left: 0px;
+		width: 100%;
+		text-align: center;
+	}
+	#theme2 {
+		font-size: 120px;
+		top: 80px;
+		left: 0px;
+		width: 100%;
+		text-align: center;
+	}
+	.info {
+		width:100%;
+		left: 0px;
+		text-align: center;
+		font-size: 16px;
+	}
+	#almost {
+		left: 0px;
+		text-align: center;
+		top: 300px;
+		width: 100%
+	}
+	#clock {
+		left: 0px;
+		text-align: center;
+		top: 330px;
+	}
+}
+
 .fade-in {
   opacity:0; 
   -webkit-animation:fadeIn ease-in 1;  
