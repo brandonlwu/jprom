@@ -111,6 +111,23 @@ body {
 	left: 80px;
 }
 
+a{
+	color: white;
+	text-decoration:none;
+}
+
+
+#perm {
+	top: 560px;
+	left: 80px;
+}
+
+#guestperm {
+	top: 590px;
+	left: 80px;
+}
+
+
 @media screen and (max-width:600px) {
 	#theme1 {
 		font-size: 115px;
@@ -176,6 +193,19 @@ body {
 		left: 0px;
 		text-align: center;
 		top: 330px;
+	}
+	
+	#perm {
+		left: 0px;
+		text-align: center;
+		top: 380px;
+		width: 100%
+	}
+	#guestperm {
+		left: 0px;
+		text-align: center;
+		top: 400px;
+		width: 100%
 	}
 }
 
